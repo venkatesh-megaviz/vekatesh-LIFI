@@ -1,0 +1,18 @@
+{
+    "name": "LiFi App",
+    "short_name": "LiFi",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "gcm_sender_id": "114583176367",
+    "icons": [
+    {
+      "src": "/favlogo_2.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ]
+  }
+
+ 

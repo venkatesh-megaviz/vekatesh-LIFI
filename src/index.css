@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Kalnia:wght@100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Kalnia:wght@100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil+One&display=swap');
+
+html,body,#root{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;   
+  height: auto; 
+  width: 100%;
+  overflow-x: hidden !important;
+
+}
+
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+.toast-success-custom .Toastify__progress-bar {
+  background-color: #4caf50 !important; 
+}
+
+.toast-error-custom .Toastify__progress-bar {
+  background-color: red !important; 
+}
+
+/* Target only the icon, not the background circle */
+.toast-success-custom .Toastify__toast-icon {
+  color: #4caf50 !important; /* Green icon */
+}
+
